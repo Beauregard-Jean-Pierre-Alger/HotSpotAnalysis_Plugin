@@ -1,6 +1,6 @@
 # Hotspot Analysis Plugin for QGIS
 
-**DEV VERSION FOR PYSAL 2.0 - NB: POORLY TESTED!**
+**DEV VERSION FOR PYSAL 2.0**
 
 **Instructions on this README are under development** 
 
