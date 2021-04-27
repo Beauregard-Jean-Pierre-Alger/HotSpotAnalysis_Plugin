@@ -112,7 +112,7 @@ Open a **Terminal** and change directory to QGIS Plugins directory, default is:
 ***Alternatively***
 --->
 **2)** Download the zip folder of the repository at:
-https://github.com/danioxoli/HotSpotAnalysis_Plugin/archive/qgis3pysal2.zip
+https://github.com/danioxoli/HotSpotAnalysis_Plugin/archive/refs/heads/qgis3pysal2.zip
 
 Open QGIS 3 and go to `Plugins` -> `Install from ZIP`
 
@@ -124,7 +124,7 @@ ___
 **1)** PySAL 2 is included in the core libraries of the current LTR QGIS version (3.10), no dependencies installation is required
 
 **2)** Download the zip of the repository folder:
-https://github.com/danioxoli/HotSpotAnalysis_Plugin/archive/qgis3pysal2.zip
+https://github.com/danioxoli/HotSpotAnalysis_Plugin/archive/refs/heads/qgis3pysal2.zip
 
 Go to `Plugins` -> `Install from ZIP`
 
