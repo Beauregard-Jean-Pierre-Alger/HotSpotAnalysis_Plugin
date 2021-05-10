@@ -191,10 +191,12 @@ Bug tracker and Wiki
 
 _The Hotspot Analysis plugin is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation_
 
-Copyright © 2021 Daniele Oxoli - Politecnico Di Milano | Ganbriele Prestifilippo - GISdevio
+Copyright © 2021 Daniele Oxoli - [Politecnico Di Milano] | Ganbriele Prestifilippo - [GISdevio]
 
 E-mail: daniele.oxoli@polimi.it
 
+ [GISdevio]: <https://gisdev.io/en?lang=en>
+ [Politecnico Di Milano]: <https://www.polimi.it/>
  [PySAL]: <https://pysal.org/>
  [Getis and Ord, 1992]: <http://onlinelibrary.wiley.com/doi/10.1111/j.1538-4632.1992.tb00261.x/full>
  [Geospatial Analysis - 5th Edition, 2015 - de Smith, Goodchild, Longley]: <http://www.spatialanalysisonline.com/HTML/index.html?local_indicators_of_spatial_as.htm>
