@@ -104,7 +104,7 @@ Select the downloaded zip folder and press `Install plugin`. The icon for the Ho
 ___
 ### Installation - macOS
 
-**1)** PySAL 2 is included in the core libraries of the current LTR QGIS version (3.10), no dependencies installation is required
+**1)** PySAL 2 is included in the core libraries of the current LTR QGIS version, no dependencies installation is required
 
 **2)** Download the zip of the repository folder:
 https://github.com/danioxoli/HotSpotAnalysis_Plugin/archive/refs/heads/qgis3pysal2.zip
@@ -177,7 +177,6 @@ ___
  - Test on the new functionalities addedd
  - improve GUI appereance
  - Update User guide and documentation for Anselin Local Moran's I and Bivariate Local Moran computation
- - Create a new branch of the sotware without external Python dependnecies
  
 ___
 
@@ -191,7 +190,7 @@ Copyright © 2018 Daniele Oxoli/ Mayra Zurbaràn/ Gabriele Prestifilippo/ Stanly
 
 E-mail: daniele.oxoli@polimi.it
 
- [PySAL]: <http://pysal.readthedocs.io/en/v1.11.0/#>
+ [PySAL]: <https://pysal.org/>
  [Getis and Ord, 1992]: <http://onlinelibrary.wiley.com/doi/10.1111/j.1538-4632.1992.tb00261.x/full>
  [Geospatial Analysis - 5th Edition, 2015 - de Smith, Goodchild, Longley]: <http://www.spatialanalysisonline.com/HTML/index.html?local_indicators_of_spatial_as.htm>
  [OSGeo4W Shell]:<http://trac.osgeo.org/osgeo4w/>
