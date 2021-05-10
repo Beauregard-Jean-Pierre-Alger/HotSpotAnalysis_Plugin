@@ -89,7 +89,7 @@ Open a **Terminal** and change directory to QGIS Plugins directory, default is:
 **Clone** the `GitHub` repository into the earlier mentioned path:
 
 ```sh
- $  sudo git clone -b qgis3 https://github.com/danioxoli/HotSpotAnalysis_Plugin
+ $  sudo git clone -b qgis3pysal2 https://github.com/danioxoli/HotSpotAnalysis_Plugin
 ```
 
 ***Alternatively***
@@ -109,9 +109,13 @@ ___
 **2)** Download the zip of the repository folder:
 https://github.com/danioxoli/HotSpotAnalysis_Plugin/archive/refs/heads/qgis3pysal2.zip
 
+https://github.com/danioxoli/HotSpotAnalysis_Plugin/issues/61
+
 Go to `Plugins` -> `Install from ZIP`
 
 Select the downloaded zip folder and press `Install plugin`. The icon for the Hotspot Analysis plugin will appear in the list of the installed plugins. Tick the Checkbox to activate it. The plugin will appear in the Vector menu.
+
+**N.B.** If dependencies errors show up, check this workaround: https://github.com/danioxoli/HotSpotAnalysis_Plugin/issues/61
 
 ___
 
@@ -133,6 +137,7 @@ ___
 
 ##### Changeset 04/2021
 - Bug import fix for LTR 3.16
+- Fix of PySAL functions import paths
 
 ##### Changeset 02/2020
 - Port to PySAL 2
