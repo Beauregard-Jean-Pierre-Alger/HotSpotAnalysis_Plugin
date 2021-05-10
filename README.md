@@ -1,8 +1,6 @@
 # Hotspot Analysis Plugin for QGIS
 
-**DEV VERSION FOR PYSAL 2.0**
-
-**Instructions on this README are under development** 
+**THIS PLUGIN VERSION USES PYSAL >= 2.0**
 
 A QGIS Plugin to perform Hotspot analysis based on the Python Spatial Analysis Library - [PySAL]. 
 
@@ -14,21 +12,6 @@ Please consider the aforementioned litterature references for detailed informati
 
 Spatial relationship between point features is modeled using a Fixed Distance Band (expressed with the same unit of measure of the projected coordinate system of the input point shapefile) or optionally using the  K-nearest neighbours approach. For polygon shapefile analysis, the spatial relation is modelled using a 1st order queen's case contiguity matrix. For more information, please refer to [Geospatial Analysis - 5th Edition, 2015 - de Smith, Goodchild, Longley]
 
-<!---
-Dependency Requirements:
-
-  - **`PySAL`**
-  - **`Numpy`**
-  - **`Scipy`**
-
-These libraries are not included in the QGIS core libraries and must be installed prior to the use of the plugin through the [OSGeo4W Shell] on **Windows**, or through terminal on **Ubuntu** and **macOS** (see the following).
-
-<!---
-**Note**:_If you are using the [OSGeo-Live] Virtual Machine, you do not need to install any dependency. You can simply install the plugin from the offcial **QGIS Python Plugins Repository**. Depending on the pre-installed Pysal version, some of the functionalities might not be available_
-___
-
-**NB - the dependencies installation for MacOS might not properly work because not extensively tested yet**
---->
 ___
 ### Installation - Windows
 
@@ -147,6 +130,9 @@ Latest presentation available here: http://www.slideshare.net/danieleoxoli/hotsp
 ___
 
 ### Changeset
+
+##### Changeset 04/2021
+- Bug import fix for LTR 3.16
 
 ##### Changeset 02/2020
 - Port to PySAL 2
