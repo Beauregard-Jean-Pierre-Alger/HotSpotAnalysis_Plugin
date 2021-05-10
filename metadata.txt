@@ -10,7 +10,7 @@
 name=Hotspot Analysis
 qgisMinimumVersion=3.0
 description=This plugin implements LISA statistics needed for Hotspot and Cluster Analysis
-version=1.0.4
+version=2.0.0
 author=Daniele Oxoli & Gabriele Prestifilippo & Mayra Zurbaràn & Stanly Shaji
 email=daniele.oxoli@polimi.it
 
@@ -23,8 +23,12 @@ repository=https://github.com/danioxoli/HotSpotAnalysis_Plugin
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
-changelog=1.0.4
+changelog=2.0.0
     - Port to PySAL 2
+    - Data import fix for QGIS 3.16
+# Uncomment the following line and add your changelog:
+#changelog=1.0.4
+#    - Port to PySAL 2
 #changelog=1.0.3
 #    - code cleaning
 #changelog=1.0.2
