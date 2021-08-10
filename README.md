@@ -101,7 +101,7 @@ Select the downloaded zip folder and press `Install plugin`. The icon for the Ho
 ___
 ### Installation - macOS
 
-**1)** PySAL 2 may be included in the core libraries of the current LTR QGIS version, if not install `pysal==2.0.0` following these instructions: https://www.lutraconsulting.co.uk/blog/2020/10/01/qgis-macos-package
+**1)** PySAL 2 may be included in the core libraries of the current LTR QGIS version, otherwise install the package `pysal==2.0.0` using `pip3`  following these instructions: https://www.lutraconsulting.co.uk/blog/2020/10/01/qgis-macos-package
 
 **Note**: If dependencies errors show up, check this workaround: https://github.com/danioxoli/HotSpotAnalysis_Plugin/issues/61
 
