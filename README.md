@@ -23,7 +23,7 @@ Open `OSGeo4W Shell` installed with QGIS3 as `Administrator` and type:
  $ python -m pip install --upgrade pip
  $ python -m pip install pysal==2.0.0
 ```
-<!---
+
 **2)** Open QGIS:
 
 
@@ -33,9 +33,8 @@ In `All plugins` tab, look for `Hotspot Analysis` and tick the checkbox.
 A new icon for Hotspot Analysis will appear on the QGIS main panel and in the Vector Menu.
 
 **3)** If you are interested in the **latest unreleased version**:
---->
 
-**2)** Download the zip folder of the repository at:
+Download the zip folder of the repository at:
 https://github.com/danioxoli/HotSpotAnalysis_Plugin/archive/refs/heads/qgis3pysal2.zip
 
 Open QGIS 3 and go to `Plugins` -> `Install from ZIP`
@@ -70,14 +69,12 @@ Open a **Terminal** and type the commands:
  $ python3 setup.py install
 ```
 
-<!---
 **2)** Open QGIS 3:
 
 Go to `Plugins` -> `Manage and Install plugins` -> `Settings` -> `Show also experimental plugins` 
 
 In `All plugins` tab, look for `Hotspot Analysis` and tick the Checkbox.  
 A new icon for Hotspot Analysis will appear on the QGIS main panel and in the Vector Menu.
-
 
 **3)** If you are interested in the **latest unreleased version**:
 
@@ -93,8 +90,8 @@ Open a **Terminal** and change directory to QGIS Plugins directory, default is:
 ```
 
 ***Alternatively***
---->
-**2)** Download the zip folder of the repository at:
+
+Download the zip folder of the repository at:
 https://github.com/danioxoli/HotSpotAnalysis_Plugin/archive/refs/heads/qgis3pysal2.zip
 
 Open QGIS 3 and go to `Plugins` -> `Install from ZIP`
@@ -106,7 +103,18 @@ ___
 
 **1)** PySAL 2 is included in the core libraries of the current LTR QGIS version, no dependencies installation is required
 
-**2)** Download the zip of the repository folder:
+**Note**: If dependencies errors show up, check this workaround: https://github.com/danioxoli/HotSpotAnalysis_Plugin/issues/61
+
+**2)** Open QGIS 3:
+
+Go to `Plugins` -> `Manage and Install plugins` -> `Settings` -> `Show also experimental plugins` 
+
+In `All plugins` tab, look for `Hotspot Analysis` and tick the Checkbox.  
+A new icon for Hotspot Analysis will appear on the QGIS main panel and in the Vector Menu.
+
+**3)** If you are interested in the **latest unreleased version**:
+
+Download the zip of the repository folder:
 https://github.com/danioxoli/HotSpotAnalysis_Plugin/archive/refs/heads/qgis3pysal2.zip
 
 https://github.com/danioxoli/HotSpotAnalysis_Plugin/issues/61
@@ -114,8 +122,6 @@ https://github.com/danioxoli/HotSpotAnalysis_Plugin/issues/61
 Go to `Plugins` -> `Install from ZIP`
 
 Select the downloaded zip folder and press `Install plugin`. The icon for the Hotspot Analysis plugin will appear in the list of the installed plugins. Tick the Checkbox to activate it. The plugin will appear in the Vector menu.
-
-**N.B.** If dependencies errors show up, check this workaround: https://github.com/danioxoli/HotSpotAnalysis_Plugin/issues/61
 
 ___
 
