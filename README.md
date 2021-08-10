@@ -23,7 +23,7 @@ Open `OSGeo4W Shell` installed with QGIS3 as `Administrator` and type:
  $ python -m pip install pysal==2.0.0
 ```
 
-* A **video tutorial** for installation on Windows is available on [here]
+* A **video tutorial** for installation on Windows is available [here]
 
 **2)** Open QGIS:
 
