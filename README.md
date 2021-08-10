@@ -23,8 +23,9 @@ Open `OSGeo4W Shell` installed with QGIS3 as `Administrator` and type:
  $ python -m pip install pysal==2.0.0
 ```
 
-**2)** Open QGIS:
+* A **video tutorial** for installation on Windows is available on [here]
 
+**2)** Open QGIS:
 
 Go to `Plugins` -> `Manage and Install plugins` -> `Settings` -> `Show also experimental plugins` 
 
@@ -212,3 +213,4 @@ E-mail: daniele.oxoli@polimi.it
  [Wartenberg, 1985]:<http://onlinelibrary.wiley.com/store/10.1111/j.1538-4632.1985.tb00849.x/asset/j.1538-4632.1985.tb00849.x.pdf?v=1&t=j0uyit1b&s=7ad70b665f08164ec74068d58eedf6f65e072dfa>
  [Anselin et al., 2002]:<https://pdfs.semanticscholar.org/4e34/bd70317377971ba8df7259288b972ad6a239.pdf>
  [previous version here]:<https://github.com/danioxoli/HotSpotAnalysis_Plugin/tree/qgis3>
+ [here]:<https://www.youtube.com/watch?v=lnDkbdKKJXM&ab_channel=AMDGS>
