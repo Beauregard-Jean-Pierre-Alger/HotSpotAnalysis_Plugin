@@ -16,12 +16,21 @@ ___
 
 **1)** Install dependencies:
 
-Open `OSGeo4W Shell` installed with QGIS3 as `Administrator` and type:
+Open `OSGeo4W Shell` installed with QGIS as `Administrator` and type:
 ```sh
  $ py3_env
  $ python -m pip install --upgrade pip
  $ python -m pip install pysal==2.0.0
 ```
+If you are using **QGIS 3.2**:
+
+Open `OSGeo4W Shell` installed with QGIS as `Administrator` and type:
+```sh
+ $ py3_env
+ $ python -m pip install --upgrade pip
+ $ python -m pip install pysal
+```
+
 
 * A **video tutorial** for installation on Windows is available [here]
 
