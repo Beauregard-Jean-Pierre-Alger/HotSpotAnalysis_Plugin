@@ -16,7 +16,7 @@ ___
 
 **1)** Install dependencies:
 
-If you are using **QGIS 3.16**:
+If you are using **QGIS 3.18** or lower:
 
 Open `OSGeo4W Shell` installed with QGIS as `Administrator` and type:
 ```sh
@@ -29,8 +29,9 @@ If you are using **QGIS >= 3.20**:
 
 Open `OSGeo4W Shell` installed with QGIS as `Administrator` and type:
 ```sh
- $ python -m pip install --upgrade pip
- $ python -m pip install pysal==2.1.0
+ $ o4w_env
+ $ python3 -m pip install --upgrade pip
+ $ python3 -m pip install pysal -U --user
 ```
 
 * A **video tutorial** for installation on Windows is available [here]
