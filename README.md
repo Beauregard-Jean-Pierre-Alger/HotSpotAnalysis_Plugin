@@ -31,7 +31,7 @@ Open `OSGeo4W Shell` installed with QGIS as `Administrator` and type:
 ```sh
  $ o4w_env
  $ python3 -m pip install --upgrade pip
- $ python3 -m pip install pysal -U --user
+ $ python3 -m pip install pysal==2.1.0 -U --user
 ```
 
 * A **video tutorial** for installation on Windows is available [here]
